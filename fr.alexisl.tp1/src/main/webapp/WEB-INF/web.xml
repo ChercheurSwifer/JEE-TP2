@@ -9,4 +9,14 @@
         <servlet-name>CreationUtilisateurs</servlet-name>
         <url-pattern>/creationUtilisateurs</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+  		<servlet-name>ArticlesServlet</servlet-name>
+  		<servlet-class>fr.alexisl.tp1.servlets.CreationArticles</servlet-class>
+  	</servlet>
+  
+  	<servlet-mapping>
+  		<servlet-name>ArticlesServlet</servlet-name>
+  		<url-pattern>/creationArticles</url-pattern>
+  	</servlet-mapping>
 </web-app>

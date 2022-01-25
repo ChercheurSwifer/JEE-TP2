@@ -13,8 +13,13 @@
         <p>Email : ${ utilisateur.email }</p>
      
      <br>
-      
-      <p> BLOG : </p>  
+      <p> Modifier Infos Compte : </p>
+    <form method="POST" action="afficherUtilisateur">
+    	
+    	<label for="name">Changer de nom : </label>
+		<input type="changename" id="changename" name="changename" value="${ utilisateur.nom }"><br>
+    	<input type="submit" value="Valider"  />
+	</form>
         
     </body>
 </html>
