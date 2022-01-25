@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>CreationUtilisateurs</servlet-name>
+        <servlet-class>fr.alexisl.tp1.servlets.CreationUtilisateurs</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreationUtilisateurs</servlet-name>
+        <url-pattern>/creationUtilisateurs</url-pattern>
+    </servlet-mapping>
+</web-app>
